@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lanf="en">
+   <head>
+      <title>Computers</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+	<script>
+	var myVar;
+	function func(){
+		var myVar = setInterval(refresh, 1000);
+	}
+	function refresh() {
+		$( "#pi" ).load(window.location.href + " #pi" );
+		
+		
+	}
+	func()
+	</script>
+		
+	<style>
+		#padding{padding-top:5%;
+		padding-left:5%;
+		height:100%}
+	</style>
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class = "container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="">BitBot</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li><a href='#'></a></li>
+						<li><a href='#'></a></li>
+						<li><a href='#'></a></li>
+						<li><a href='#'></a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#"><span class="glyphicon glyphicon-user"></span> </a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> </a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div id='pi'>
+			<div class="container-fluid">
+				<img class="img-responsive" id = 'padding' src="https://www.pythonanywhere.com/user/kkingsbe/files/home/kkingsbe/.virtualenvs/Price_Graph.png">
+			</div>
+		</div>
+	</body>
+	
+</html>
